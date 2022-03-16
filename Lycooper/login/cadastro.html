@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Log In</h2>
+                <p class="description description-primary">Caso já tenha uma conta</p>
+                <p class="description description-primary">entre usando seu usuário e senha</p>
+                <form action="form.html">
+                    <button class="btn btn-primary">Login</button>
+                </form>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">Criar conta</h2>
+                <form action="dados.php" method="POST" class="form">
+                    <label class="label-input" for="">
+                        <input type="text" placeholder="Usuario">
+                    </label>
+                    
+                    <label class="label-input" for="">
+                        <input type="email" placeholder="Email">
+                    </label>
+
+                    <label class="label-input" for="">
+                        <input type="password" placeholder="Senha">
+                    </label>
+
+                    <button class="btn btn-second" type="reset">Limpar dados</button>
+                    <button class="btn btn-third" type="submit">Criar</button>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
